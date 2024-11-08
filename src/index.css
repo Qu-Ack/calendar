@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .healthcamp-card {
+    @apply flex flex-col items-center bg-white rounded-xl max-w-96;
+  }
+}
